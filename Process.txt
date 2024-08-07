@@ -1,0 +1,14 @@
+- First understand what is docker
+- Second , Creating an Flask app
+- Third , we will create  frontend part using flasgger(Helps to create front end web app)
+- Now we will use docker
+-In Docker file
+FROM python:3.9.19-alpine3.19  # Pull this from docker hub
+COPY . /app # Copy in app folder(It will get created)
+run the docker and push It
+
+
+
+docker build -t money_api .
+
+- Running Our app
